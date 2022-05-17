@@ -1,0 +1,253 @@
+PODS:
+  - agora_rtc_engine (4.2.2):
+    - AgoraRtcEngine_iOS (= 3.5.2)
+    - Flutter
+  - agora_rtm (1.1.0):
+    - AgoraRtm_iOS (= 1.4.10)
+    - Flutter
+  - AgoraRtcEngine_iOS (3.5.2)
+  - AgoraRtm_iOS (1.4.10)
+  - audioplayers (0.0.1):
+    - Flutter
+  - Firebase/CoreOnly (8.15.0):
+    - FirebaseCore (= 8.15.0)
+  - Firebase/Messaging (8.15.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 8.15.0)
+  - firebase_core (1.16.0):
+    - Firebase/CoreOnly (= 8.15.0)
+    - Flutter
+  - firebase_messaging (11.3.0):
+    - Firebase/Messaging (= 8.15.0)
+    - firebase_core
+    - Flutter
+  - FirebaseCore (8.15.0):
+    - FirebaseCoreDiagnostics (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+  - FirebaseCoreDiagnostics (8.15.0):
+    - GoogleDataTransport (~> 9.1)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+    - nanopb (~> 2.30908.0)
+  - FirebaseInstallations (8.15.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/UserDefaults (~> 7.7)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - FirebaseMessaging (8.15.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleDataTransport (~> 9.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Reachability (~> 7.7)
+    - GoogleUtilities/UserDefaults (~> 7.7)
+    - nanopb (~> 2.30908.0)
+  - Flutter (1.0.0)
+  - flutter_local_notifications (0.0.1):
+    - Flutter
+  - flutter_paystack (0.0.1):
+    - Flutter
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - geocoder (0.0.1):
+    - Flutter
+  - geocoding (1.0.5):
+    - Flutter
+  - geolocator_apple (1.2.0):
+    - Flutter
+  - google_maps_flutter (0.0.1):
+    - Flutter
+    - GoogleMaps
+  - GoogleDataTransport (9.1.2):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleMaps (5.2.0):
+    - GoogleMaps/Maps (= 5.2.0)
+  - GoogleMaps/Base (5.2.0)
+  - GoogleMaps/Maps (5.2.0):
+    - GoogleMaps/Base
+  - GoogleUtilities/AppDelegateSwizzler (7.7.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.7.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.7.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (7.7.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.7.0)"
+  - GoogleUtilities/Reachability (7.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.7.0):
+    - GoogleUtilities/Logger
+  - image_cropper (0.0.4):
+    - Flutter
+    - TOCropViewController (~> 2.6.1)
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - package_info_plus (0.4.5):
+    - Flutter
+  - path_provider_ios (0.0.1):
+    - Flutter
+  - permission_handler_apple (9.0.4):
+    - Flutter
+  - PromisesObjC (2.1.0)
+  - ripple_animation (0.0.1):
+    - Flutter
+  - shared_preferences_ios (0.0.1):
+    - Flutter
+  - smart_auth (0.0.1):
+    - Flutter
+  - sqflite (0.0.2):
+    - Flutter
+    - FMDB (>= 2.7.5)
+  - TOCropViewController (2.6.1)
+  - url_launcher_ios (0.0.1):
+    - Flutter
+  - webview_flutter (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - agora_rtc_engine (from `.symlinks/plugins/agora_rtc_engine/ios`)
+  - agora_rtm (from `.symlinks/plugins/agora_rtm/ios`)
+  - audioplayers (from `.symlinks/plugins/audioplayers/ios`)
+  - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
+  - firebase_messaging (from `.symlinks/plugins/firebase_messaging/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_local_notifications (from `.symlinks/plugins/flutter_local_notifications/ios`)
+  - flutter_paystack (from `.symlinks/plugins/flutter_paystack/ios`)
+  - geocoder (from `.symlinks/plugins/geocoder/ios`)
+  - geocoding (from `.symlinks/plugins/geocoding/ios`)
+  - geolocator_apple (from `.symlinks/plugins/geolocator_apple/ios`)
+  - google_maps_flutter (from `.symlinks/plugins/google_maps_flutter/ios`)
+  - image_cropper (from `.symlinks/plugins/image_cropper/ios`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - package_info_plus (from `.symlinks/plugins/package_info_plus/ios`)
+  - path_provider_ios (from `.symlinks/plugins/path_provider_ios/ios`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - ripple_animation (from `.symlinks/plugins/ripple_animation/ios`)
+  - shared_preferences_ios (from `.symlinks/plugins/shared_preferences_ios/ios`)
+  - smart_auth (from `.symlinks/plugins/smart_auth/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+  - webview_flutter (from `.symlinks/plugins/webview_flutter/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AgoraRtcEngine_iOS
+    - AgoraRtm_iOS
+    - Firebase
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - FMDB
+    - GoogleDataTransport
+    - GoogleMaps
+    - GoogleUtilities
+    - nanopb
+    - PromisesObjC
+    - TOCropViewController
+
+EXTERNAL SOURCES:
+  agora_rtc_engine:
+    :path: ".symlinks/plugins/agora_rtc_engine/ios"
+  agora_rtm:
+    :path: ".symlinks/plugins/agora_rtm/ios"
+  audioplayers:
+    :path: ".symlinks/plugins/audioplayers/ios"
+  firebase_core:
+    :path: ".symlinks/plugins/firebase_core/ios"
+  firebase_messaging:
+    :path: ".symlinks/plugins/firebase_messaging/ios"
+  Flutter:
+    :path: Flutter
+  flutter_local_notifications:
+    :path: ".symlinks/plugins/flutter_local_notifications/ios"
+  flutter_paystack:
+    :path: ".symlinks/plugins/flutter_paystack/ios"
+  geocoder:
+    :path: ".symlinks/plugins/geocoder/ios"
+  geocoding:
+    :path: ".symlinks/plugins/geocoding/ios"
+  geolocator_apple:
+    :path: ".symlinks/plugins/geolocator_apple/ios"
+  google_maps_flutter:
+    :path: ".symlinks/plugins/google_maps_flutter/ios"
+  image_cropper:
+    :path: ".symlinks/plugins/image_cropper/ios"
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+  package_info_plus:
+    :path: ".symlinks/plugins/package_info_plus/ios"
+  path_provider_ios:
+    :path: ".symlinks/plugins/path_provider_ios/ios"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  ripple_animation:
+    :path: ".symlinks/plugins/ripple_animation/ios"
+  shared_preferences_ios:
+    :path: ".symlinks/plugins/shared_preferences_ios/ios"
+  smart_auth:
+    :path: ".symlinks/plugins/smart_auth/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+  webview_flutter:
+    :path: ".symlinks/plugins/webview_flutter/ios"
+
+SPEC CHECKSUMS:
+  agora_rtc_engine: 8f2143405d2d444529a22a313eb0f4a213f1813e
+  agora_rtm: ca73e1399d7803dd046a8bd7cf0335ff4e0e44e3
+  AgoraRtcEngine_iOS: 3d13806d67e401298558c9a6fb09340a4299afa2
+  AgoraRtm_iOS: 95e7070466f42a6494435a7f39fd2b13fc143cbf
+  audioplayers: 455322b54050b30ea4b1af7cd9e9d105f74efa8c
+  Firebase: 5f8193dff4b5b7c5d5ef72ae54bb76c08e2b841d
+  firebase_core: 6ef152b7d6a361e24105e2cc56ab458f1f8367fe
+  firebase_messaging: 09caf4347b3a73deb37ed31f284ca11cc6039541
+  FirebaseCore: 5743c5785c074a794d35f2fff7ecc254a91e08b1
+  FirebaseCoreDiagnostics: 92e07a649aeb66352b319d43bdd2ee3942af84cb
+  FirebaseInstallations: 40bd9054049b2eae9a2c38ef1c3dd213df3605cd
+  FirebaseMessaging: 5e5118a2383b3531e730d974680954c679ca0a13
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  flutter_local_notifications: 0c0b1ae97e741e1521e4c1629a459d04b9aec743
+  flutter_paystack: 50021637b71e7712780744f69d2843e71b65175d
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  geocoder: 3cfab70531a0b367e917bafe82df4c30f6d4c45a
+  geocoding: 32cfcdb16d38d907caaba65e2e42ad10d38bee58
+  geolocator_apple: cc556e6844d508c95df1e87e3ea6fa4e58c50401
+  google_maps_flutter: c59fc576c0d0c7f4dc4bd63832c862d22d5a7c6d
+  GoogleDataTransport: 629c20a4d363167143f30ea78320d5a7eb8bd940
+  GoogleMaps: 025272d5876d3b32604e5c080dc25eaf68764693
+  GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
+  image_cropper: 60c2789d1f1a78c873235d4319ca0c34a69f2d98
+  image_picker_ios: b786a5dcf033a8336a657191401bfdf12017dabb
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  package_info_plus: 6c92f08e1f853dc01228d6f553146438dafcd14e
+  path_provider_ios: 14f3d2fd28c4fdb42f44e0f751d12861c43cee02
+  permission_handler_apple: 44366e37eaf29454a1e7b1b7d736c2cceaeb17ce
+  PromisesObjC: 99b6f43f9e1044bd87a95a60beff28c2c44ddb72
+  ripple_animation: 7893accb6c07e9e74cc56fce4ac9c614f1bf7249
+  shared_preferences_ios: 548a61f8053b9b8a49ac19c1ffbc8b92c50d68ad
+  smart_auth: 4bedbc118723912d0e45a07e8ab34039c19e04f2
+  sqflite: 6d358c025f5b867b29ed92fc697fd34924e11904
+  TOCropViewController: edfd4f25713d56905ad1e0b9f5be3fbe0f59c863
+  url_launcher_ios: 839c58cdb4279282219f5e248c3321761ff3c4de
+  webview_flutter: d2b4d6c66968ad042ad94cbb791f5b72b4678a96
+
+PODFILE CHECKSUM: 8837dbb254ec7a56311962ed07fef9ba43bd134b
+
+COCOAPODS: 1.10.2
